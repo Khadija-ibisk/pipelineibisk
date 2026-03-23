@@ -1,0 +1,6 @@
+order_id,customer_name,country,product,quantity,price,order_date
+ORD001,Alice Martin,France,Laptop,1,999.99,2024-01-15
+ORD002,Bob Smith,USA,Mouse,3,25.50,2024-01-16
+ORD003,,Germany,Keyboard,2,75.00,2024-01-17
+ORD004,Carol Lee,Japan,Monitor,1,350.00,2024-01-18
+ORD005,David Brown,France,Laptop,2,999.99,2024-02-01

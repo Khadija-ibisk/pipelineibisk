@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+psycopg2-binary
+pydantic
+pandas
+openpyxl
+pyarrow
+python-dotenv
+pytest
+httpx

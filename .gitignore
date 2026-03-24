@@ -7,3 +7,5 @@ __pycache__/
 pipeline.log
 data/exports/
 data/processed/
+pipeline.log
+generate_excel.py

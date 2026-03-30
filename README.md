@@ -18,7 +18,6 @@ vers un format canonique unique stocke dans PostgreSQL.
 - 23 tests pytest
 
 ## Architecture du projet
-## Architecture du projet
 ```
 pipelineibisk/
 ├── data/

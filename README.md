@@ -22,7 +22,9 @@ vers un format canonique unique stocke dans PostgreSQL.
 ```
 pipelineibisk/
 ├── data/
-│   ├── raw/                    <- fichiers d'entree
+│   ├── processed/ ← données nettoyées
+│   ├── exports/ ← données analytiques
+│   ├── raw/                   <- fichiers d'entree
 │   │   ├── orders.csv
 │   │   ├── orders.xlsx
 │   │   ├── sales.json
@@ -45,6 +47,7 @@ pipelineibisk/
 │       │   └── archive_loader.py
 │       ├── storage/
 │       │   ├── postgres.py     <- connexion et insertion PostgreSQL
+│       │   └── file_writer.py     
 │       │   └── parquet_writer.py <- export Parquet partitionne
 │       ├── transform/
 │       │   └── normalize.py    <- normalisation vers schema canonique
